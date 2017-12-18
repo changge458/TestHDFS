@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- hdfs-site.xml -->
+<configuration>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/home/centos/hadoop/hdfs/name</value>
+	</property>
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>/home/centos/hadoop/hdfs/data</value>
+	</property>
+	<property>
+		<name>dfs.namenode.checkpoint.dir</name>
+		<value>/home/centos/hadoop/hdfs/namesecondary</value>
+	</property>
+</configuration>
